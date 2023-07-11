@@ -1,0 +1,24 @@
+#container {
+  border: solid 2px red;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+#child1 {
+  background-color: blue;
+  flex: 1;
+}
+
+#child2 {
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  align-self: center;
+}
+
+#child3 {
+  background-color: brown;
+  flex: 2;
+}
