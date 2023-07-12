@@ -1,0 +1,16 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+}
+
+#conainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+}
